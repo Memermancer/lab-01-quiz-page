@@ -1,5 +1,12 @@
-// import functions and grab DOM elements
 
-// initialize state
 
-// set event listeners to update state and DOM
+
+const quizButton = document.getElementById('button1');
+const result = document.getElementById('quiz-result');
+
+quizButton.addEventListener('click', () => {
+
+    console.log('hey it works');
+
+    
+});
