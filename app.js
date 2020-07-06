@@ -27,6 +27,7 @@ quizButton.addEventListener('click', () => {
     if (!isYes(answer3)) {
         score++
     }
-    console.log(score);
+   
+    result.textContent = 'Here is your score, ' + name + ': ' + score;
     
 });
