@@ -27,7 +27,12 @@ quizButton.addEventListener('click', () => {
     if (!isYes(answer3)) {
         score++
     }
-   
-    result.textContent = 'Here is your score, ' + name + ': ' + score;
-    
+    let percentage = (100 - (33 * (3 - score)));
+    let finalScore = 'Here is your score, ' + name + ': ' + percentage + '%';
+
+    result.textContent = finalScore;
+
+    if (percentage > 67) {
+        result.style.color = 'blue';
+    } else result.style.color = 'red';
 });

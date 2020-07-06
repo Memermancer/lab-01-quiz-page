@@ -85,8 +85,6 @@ header img {
     height: var(--header-height);
 }
 
-
-
 content {
     width: 80%;
 }
@@ -94,6 +92,7 @@ content {
 p {
     margin: var(--gutter);
 }
+
   
 footer {
     position: fixed;
